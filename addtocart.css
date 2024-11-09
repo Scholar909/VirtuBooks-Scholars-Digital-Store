@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(173, 168, 168);
+    box-shadow: rgba(78, 72, 72, 0.808);
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    background-color: #eee;
+}
+
+p{
+    font-size: 25px;
+    margin-top: 10px;
+    text-shadow: black;
+    color: whitesmoke;
+}
+
+#cart-items{
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#cart-items li{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    color: antiquewhite;
+    margin-top: 15px;
+}
+
+

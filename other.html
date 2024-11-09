@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTHER VIEWS</title>
+    <style>
+        div{
+            display: none;
+            background-color: #f0f0f0;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        div a{
+            text-decoration: none;
+            color: black;
+        }
+
+        div a:hover{
+            color: red;
+        }
+
+        h4{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: rgb(4, 4, 8);
+        }
+    </style>
+</head>
+<body>
+    <div id="others">
+        <h4>this is for course: OTHERS</h4>
+
+        <a href='https://www.versicherungen.at/'>Versicherungen im Vergleich</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=30ffad659c90f25f287aeec5155a5780300c63eb'></script>
+        <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1256207/t/10"></script>
+    </div>
+
+<script>
+    function revealSecretContent(){
+        const secretKey = prompt('Enter the password:');
+        if(secretKey === 'skyler909') {
+            document.getElementById("others").style.display = "block";
+        } else {
+            window.alert('The Password Inputed is Wrong!!!')
+        }
+    }
+
+    window.onload = revealSecretContent;
+</script>
+</body>
+</html>

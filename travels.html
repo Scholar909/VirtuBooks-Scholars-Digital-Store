@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TRAVEL VIEWS</title>
+    <style>
+        div{
+            display: none;
+            background-color: #f0f0f0;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        div a{
+            text-decoration: none;
+            color: black;
+        }
+
+        div a:hover{
+            color: red;
+        }
+
+        h4{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: rgb(14, 14, 24);
+        }
+    </style>
+</head>
+<body>
+    <div id="travel">
+        <h4>this is for course: TRAVEL</h4>
+
+        <a href='https://www.versicherungen.at/'>Versicherungen im Vergleich</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=c8b560c7fd696ccfbc51b2346cd4b605920d7ef6'></script>
+        <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1256206/t/10"></script>
+    </div>
+
+<script>
+    function revealSecretContent(){
+        const secretKey = prompt('Enter the password:');
+        if(secretKey === 'skyler909') {
+            document.getElementById("travel").style.display = "block";
+        } else {
+            window.alert('The Password Inputed is Wrong!!!');
+        }
+    }
+
+    window.onload = revealSecretContent;
+</script>
+</body>
+</html>
