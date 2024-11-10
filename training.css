@@ -557,6 +557,176 @@ footer p a{
     }
 }
 
+body{
+        justify-content: center;
+        max-width: 100%;
+    }
+    #dot .dot{
+        display: none;
+        position: absolute;
+        bottom: 0px;
+        left: 57px;
+        position: absolute;
+        bottom: -120px;
+        left: 57px;
+    }
+    #dot .dot a img{
+        display: none;
+        justify-content: space-between;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #chat{
+        display: none;
+        width: 100%;
+        position: absolute;
+        bottom: -2600px;
+        left: -78px;
+        padding: 8px 20px;
+        font-size: 11px;
+    }
+    #overlay{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        z-index: 9999;
+    }
+    #popup{
+        width: 300px;
+        background: white;
+        border-radius: 6px;
+        position: fixed;
+        top: 15%;
+        left: 15.5%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        padding: 0 30px 30px;
+        color: green;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    #popup img{
+        margin-top: -50px;
+        height: 30px;
+        width: 30px;
+        border: 1px solid rgb(14, 214, 48);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    #Options-all{
+        display: flex;
+    }
+    #Options-all .menu img{
+        display: flex;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        flex-direction: column;
+        width: 40px;
+        height: 30px;
+    }
+    #Options-all .exit img{
+        display: flex;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        flex-direction: column;
+        width: 40px;
+        height: 30px;
+    }
+    #options{
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        flex-direction: column;
+        background-color: rgb(247, 247, 247);
+        width: 80%;
+        height: 105%;
+        align-items: end;
+        padding: 20px;
+        font-size: 20px;
+        padding-top: 60px;
+        margin-right: -900px;
+        transition: all .3s ease;
+    }
+    #options.active{
+        margin-right: 0;
+    }
+    #options a{
+        text-decoration: none;
+        color: black;
+        margin-top: 18px;
+        border-bottom: 1px solid black;
+        width: 100%;
+        padding: 4px 8px;
+        text-align: right;
+    }
+    #about-us .container .about-img img{
+        width: 360px;
+        height: auto;
+        border-radius: 5px;
+        border: 0.5px solid rgba(90, 82, 82, 0.185);
+    }
+    #socials{
+        visibility: visible;
+        align-items: center;
+        list-style: none;
+        position: absolute;
+        bottom: -3055px;
+        left: 1px;
+    }
+    #socials a{
+        padding: 8px 16px;
+        font-size: 16px;
+        color: #fff;
+        background-color: #3d3f3d;
+        border-radius: 8px;
+        transition: transform 0.2s, background-color 0.2s;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    #socials ul li{
+        align-items: center;
+    }
+    #socials a{
+        text-decoration: none;
+    }
+    #socials a:hover{
+        background-color: #45a049;
+        transform: scale(1.05);
+    }
+    #socials-b{
+        visibility: visible;
+        align-items: right;
+        list-style: none;
+        position: absolute;
+        bottom: -3035px;
+        right: 25px;
+    }
+    #socials-b a{
+        padding: 8px 16px;
+        font-size: 16px;
+        color: #fff;
+        background-color: #3d3f3d;
+        border-radius: 8px;
+        transition: transform 0.2s, background-color 0.2s;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    #socials-b ul li{
+        align-items: center;
+    }
+    #socials-b a{
+        text-decoration: none;
+    }
+    #socials-b a:hover{
+        background-color: #45a049;
+        transform: scale(1.05);
+    }
+}
+
 @media only screen and (max-width: 376px){
     body{
         justify-content: center;
